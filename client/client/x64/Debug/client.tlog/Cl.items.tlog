@@ -1,1 +1,7 @@
-C:\Users\brami\Desktop\jukumari\client\main.c;C:\Users\brami\Desktop\jukumari\client\client\x64\Debug\main.obj
+C:\Users\brami\Desktop\jukumari\client\src\common.c;C:\Users\brami\Desktop\jukumari\client\client\x64\Debug\common.obj
+C:\Users\brami\Desktop\jukumari\client\src\hooks\keyboard.c;C:\Users\brami\Desktop\jukumari\client\client\x64\Debug\keyboard.obj
+C:\Users\brami\Desktop\jukumari\client\src\hooks\microphone.c;C:\Users\brami\Desktop\jukumari\client\client\x64\Debug\microphone.obj
+C:\Users\brami\Desktop\jukumari\client\src\hooks\processes.c;C:\Users\brami\Desktop\jukumari\client\client\x64\Debug\processes.obj
+C:\Users\brami\Desktop\jukumari\client\src\hooks\screen.c;C:\Users\brami\Desktop\jukumari\client\client\x64\Debug\screen.obj
+C:\Users\brami\Desktop\jukumari\client\src\hooks\services.c;C:\Users\brami\Desktop\jukumari\client\client\x64\Debug\services.obj
+C:\Users\brami\Desktop\jukumari\client\src\main.c;C:\Users\brami\Desktop\jukumari\client\client\x64\Debug\main.obj

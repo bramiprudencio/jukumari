@@ -1,0 +1,1 @@
+char VkCodeToChar(DWORD vkCode);
