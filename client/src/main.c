@@ -9,14 +9,15 @@
 
 int main() {
 
+    PrintRunningServices();
 
-    printf("Enumerating running applications...\n");
+    //printf("Enumerating running applications...\n");
 
     // Enumerate windows
-    EnumWindows(EnumWindowsProc, 0);
+    //EnumWindows(EnumWindowsProc, 0);
 
-    printf("\nEnumerating running processes...\n");
-    EnumerateProcesses();
+    //printf("\nEnumerating running processes...\n");
+    //EnumerateProcesses();
 
 
     // Set hooks
