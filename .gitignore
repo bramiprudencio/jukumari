@@ -1,19 +1,4 @@
 # .gitignore for Jukumari Project
-#
-# Ignoring unnecessary files for:
-# - Client (C project with Windows API, Visual Studio)
-# - Frontend (Angular project with VSCode)
-# - Backend (Go project with VSCode)
-
-### General ###
-# Node dependency folder for frontend and backend
-node_modules/
-npm-debug.log*
-yarn-error.log
-.DS_Store
-.vscode/
-.env
-.env.*.local
 
 # Logs
 *.log
@@ -31,63 +16,34 @@ logs
 package-lock.json
 
 ### Client (C Program with Windows API, Visual Studio) ###
-client/.vs/
-client/.vscode/
-client/.idea/
-client/*.exe
-client/*.dll
-client/*.obj
-client/*.pdb
-client/*.idb
-client/*.ipch
-client/*.vcxproj*
-client/Debug/
-client/Release/
-client/x64/
-client/.ipch/
-client/.suo
-client/.user
-client/.unsaved/
-client/.psess
-client/.tmp
-client/out/
-client/Generated Files/
-client/*.log
-client/CMakeCache.txt
-client/CMakeFiles/
-client/cmake_install.cmake
-client/Makefile
-client/build/
-client/*.class
-
-### Frontend (Angular project with VSCode) ###
-frontend/node_modules/
-frontend/dist/
-frontend/out-tsc/
-frontend/.angular/
-frontend/.vscode/
-frontend/.idea/
-frontend/*.log
-frontend/src/environments/*.local.ts
-frontend/src/environments/environment.prod.ts
-
-### Backend (Go project with VSCode) ###
-backend/.vscode/
-backend/.idea/
-backend/go.sum
-backend/go.mod
-backend/vendor/
-backend/bin/
-backend/pkg/
-backend/test/*.test
-backend/*.out
-backend/*.log
-backend/testdata/
-
-# If you have any compiled Go executables
-backend/*.exe
-backend/*.out
-backend/*.test
+.vs/
+.vscode/
+.idea/
+*.exe
+*.dll
+*.obj
+*.pdb
+*.idb
+*.ipch
+*.vcxproj*
+Debug/
+Release/
+x64/
+.ipch/
+.suo
+.user
+.unsaved/
+.psess
+.tmp
+out/
+Generated Files/
+*.log
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+*.class
 
 ### Global ###
 
